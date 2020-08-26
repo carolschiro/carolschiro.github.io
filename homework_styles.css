@@ -1,0 +1,102 @@
+.navbar {
+  padding: 10px;
+  background: white;
+
+}
+
+.navbar div {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: teal;
+  border-radius: 3px;
+}
+
+.navbar li a {
+color: white;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: Ariel; 
+  font-size: 18px;
+  line-height: 100%;
+  color: white;
+  background: #d1d1d1;
+}
+
+.container{
+  background: white;
+}
+
+#image1 {
+  float: left;
+  width: 50%;
+}
+
+#fig1 {
+  float: right;
+  width: 50%;
+}
+
+#fig2 {
+  float: left;
+  width: 50%;
+}
+
+#fig3 {
+  float: right;
+  width: 50%;
+}
+
+#fig4 {
+  float: left;
+  width: 50%;
+}
+
+
+#center{
+  float: left;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 0px;
+  font: Arial;
+  font-size: 14px;
+  text-align: left;
+  color: #333;
+  background:white;
+}
+
+#right{
+  padding: 0;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 25px;
+  font: Arial;
+  font-size: 18px;
+  line-height: 150%;
+  color: teal;
+  background:white;
+}
+
+ul.breadcrumb {
+  padding: 8px 16px;
+  list-style: none;
+  background-color: white;
+  float: right;
+}
+
+ul.breadcrumb li {display: inline;}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "\00a0";
+}
+
+ul.breadcrumb li a {color: gray;}
+  
+header{color: teal;}

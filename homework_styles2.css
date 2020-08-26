@@ -1,0 +1,92 @@
+.navbar {
+    padding: 10px;
+    background: white;
+}
+  
+.navbar div {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background: teal;
+    border-radius: 3px;
+}
+  
+.navbar li a {
+  color: white;
+}
+  
+body {
+    padding: 0;
+    margin: 0;
+    font: Ariel; 
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+    background: #d1d1d1;
+}
+  
+.container{
+    background: gray;
+}
+  
+#table{
+    border-collapse: collapse;
+    width: 50%;
+    background: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0px;
+    font: Ariel; 
+    font-size: 14px;
+}
+
+#header{
+    width: 50%;
+    background: white;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0px;
+    font: Ariel; 
+    font-size: 14px;
+    color: teal;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+}
+
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: white;
+    float: right;
+}
+  
+  ul.breadcrumb li {display: inline;}
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\00a0";
+}
+  
+  ul.breadcrumb li a {color: gray;
+}
+
+p{color: black;
+    width: 50%;
+    background: white;
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0px;
+    font: Ariel; 
+    text-align: left;
+  }
